@@ -1,0 +1,17 @@
+.adminorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & span {
+        margin: 0px 20px;
+    }
+    &--increase {
+        margin: 0px!important;
+        padding: 0px;
+    }
+    &--control {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

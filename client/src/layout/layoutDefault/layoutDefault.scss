@@ -1,0 +1,379 @@
+.container {
+  margin: auto;
+}
+.header {
+  background-color: #f2fce7;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  &--3gach {
+    display: none;
+  }
+  &--logo img {
+    width: 100px;
+  
+    margin-left: 60%;
+  }
+  &--main0 {
+    display: none;
+  }
+&--main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+&--main1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-top: -10px;
+  &__chung {
+    margin-right: 40px;
+
+  }
+  &__chung a {
+    text-decoration: none;
+    color: black;
+  }
+  &__home {
+    margin-left: 20%;
+  }
+
+}
+
+  &--search {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+flex-wrap: nowrap;
+    &__item {
+      // & .title {
+      //   font-size: 17px;
+      // }
+      display: flex;
+      align-items: flex-start;
+      margin-top: 0px;
+      & .img {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+        z-index: 100;
+        position: relative;
+      }
+      & .under{
+        & h3 {
+          font-size: 17px;
+          margin: 0px;
+          
+        }
+        & .p1 {
+          margin: 0px;
+          font-weight: bold;
+          color: red;
+        }
+        & .p2 {
+          margin: 0px;
+          font-weight: bold;
+        }
+        & .price {
+          display: flex;
+        }
+        & .discount{
+          margin-left: 5px;
+         }
+      }
+    }
+    &__input {
+      width: 30vw!important;
+      height: 40px!important;
+     
+    }
+    &__input .ant-select-selector {
+       border-radius: 50px!important;
+    }
+
+    &__button {
+      background-color: greenyellow;
+    }
+  }
+  &--function {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    &__c {
+      margin: 10px 10px 0px 10px;
+     
+    }
+    &__c img .img-chung{
+      max-height: 50px;
+      width: auto;
+      text-align: center;
+     
+    }
+
+    &__c p {
+      margin: 0px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    &__c a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+ 
+}
+body {
+  background-color: #F8F8F8;
+}
+.content {
+ 
+  margin-top: 10px ;
+}
+
+.footer {
+    background-color: #f2fce7;
+  padding: 0px;
+  border: 1px black solid;
+  margin-top: 20px;
+  &--one {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 20px 0px;
+  }
+  &--qc {
+   margin: 0px;
+  }
+  &--logo {
+    max-height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+    
+  }
+  &--chunginfor  {
+    display: flex;
+    align-items: center;
+
+    & p {
+      margin: 0px;
+    }
+  }
+
+  &--chunginfor img {
+    width: auto;
+    max-height: 35px;
+    margin-right: 5px;
+  }
+  &--network {
+    display: flex;
+    & img {
+      max-height: 50px;
+      width: auto;
+      padding: 5px;
+    }
+  }
+  &--cskh__phu {
+    display: none;
+  }
+  &--cskh a {
+    color: black;
+  }
+  
+}
+
+.drawer {
+  .ant-drawer-body {
+    padding: 0px;
+  }
+  &--function {
+   
+    &__c {
+   
+      margin: 10px 10px 0px 10px;
+    }
+    &__c img {
+      max-height: 50px;
+      width: auto;
+      text-align: center;
+      padding-left: 3px;
+    }
+
+    &__c p {
+      margin-left: 10px;
+    }
+
+    &__c a {
+      display: flex;
+   
+      align-items: center;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+    }
+    &__cuahang {
+      margin-bottom: 20px;
+    }
+  }
+   &--user {
+    display: flex;
+    align-items: center;
+   &__tk {
+    & p {
+      margin: 0;
+      color: white;
+      font-weight: bold;
+    }
+    & .tk {
+ font-size: 17px;
+    }
+   }
+   padding: 10px 10px 10px 10px;
+    background-color: greenyellow;
+      & p {
+        margin-left: 12px;
+      }
+   }
+   &--product {
+    &__menu img {
+     margin-left: 0px;
+  
+    }
+    &__menu .ant-menu-submenu-title{
+      display: flex;
+      align-items: center;
+      
+    }
+     
+      &__img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-right:10px;
+        
+      }
+     
+   }
+   &--hr {
+    opacity: 0.2;
+   
+  
+ }
+}
+
+.header {
+ 
+@media (min-width: 1400px) {
+  
+}
+@media (max-width: 1399.8px) {
+ 
+}
+@media  (max-width: 1199.8px) {
+  &--function {
+    &__chung {
+     display: none;
+    }
+  }
+
+}
+@media  (max-width: 991.98px) {
+  &--main1 {
+    margin-top: 10px;
+    &__home {
+      margin-left: 10vw;
+    }
+  }
+  &--logo img {
+    
+    margin-left: 0%;
+  }
+  &--main0 {
+    display: block;
+    margin: auto;
+  }
+  &--search {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    &__input {
+      width: 88vw!important;
+      
+    }
+    &__button {
+  
+      padding-right: 3px;
+    }
+  }
+  &--form {
+    display: none;
+  }
+  &--3gach {
+    display: block;
+  }
+  &--function {
+    &__donhang {
+      display: none;
+    }
+    &__cuahang {
+      display: none;
+    }
+    &__taikhoan {
+      display: none;
+    }
+  }
+ 
+}
+@media (max-width: 767.99px) {
+
+  
+}
+@media (max-width: 575.9px) {
+}
+
+}
+
+.footer {
+  @media (min-width: 1400px) {
+  
+  }
+  @media (max-width: 1399.8px) {
+   
+  }
+  @media  (max-width: 1199.8px) {
+   
+  
+  }
+  @media  (max-width: 991.98px) {
+    padding: 30px 0px;
+    &--cskh__phu {
+      display: block;
+      margin-bottom: 70px;
+      & h3 {
+        margin: 0;
+      }
+    }
+    &--cskh {
+      display: none;
+    }
+    &--tongdai {
+      .h3 {
+        margin-bottom: 10px;
+      }
+     
+    }
+  }
+  @media (max-width: 767.99px) {
+  }
+  @media (max-width: 575.9px) {
+  }
+  
+}

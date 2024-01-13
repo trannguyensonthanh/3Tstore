@@ -1,0 +1,24 @@
+.thongtin {
+    padding: 20px 30px;
+   &--header {
+    margin-bottom: 40px;
+     & h1 {
+        margin: 0px;
+     }
+     & p {
+        margin : 10px 0px;
+     }
+     & hr {
+        opacity: 0.3;
+        
+     }
+   }
+   &--form {
+    &__avatar {
+      position: absolute;
+      right: 70px;
+      top: 230px;
+    
+    }
+   }
+}
